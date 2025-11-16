@@ -1,0 +1,6 @@
+# All files with the .zip extension
+*.zip
+# All files with the .tmp extension
+*.tmp
+# All files with the .log extension
+*.log
