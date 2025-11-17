@@ -4,3 +4,5 @@
 *.tmp
 # All files with the .log extension
 *.log
+# Ignore .DS_Store extension
+.DS_Store  
