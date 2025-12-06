@@ -45,7 +45,7 @@ Provided by the **California Irrigation Management Information System**, this da
 - `206-denairii.csv`
 - `cimis_all_stations.csv.gz`
 
-Each file contains:
+**Each file contains**:
 - Air temperature
 - Relative humidity
 - Dew point
@@ -59,21 +59,21 @@ Each file contains:
 
 ## 💭 Modeling Pipeline 
 ### Features:     
-- Meteorological features
+- **Meteorological features**
   - Temperature, humidity, dew point, wind, radiation, soil temp
-- Derived physical variables
+- **Derived physical variables**
   - Dewpoint depression
   - Cooling rate
   - Humidity and wind interactions
-- Time-based features
+- **Time-based features**
   - Lagged air temperatures
   - Rolling statistics
   - Cos/sin hour of day, day of year encodings
-- Station metadata
+- **Station metadata**
   - Station IDs
 
 ### Target Variable:  
-A binary frost risk indicator, defined as:   
+A binary **frost risk indicator**, defined as:   
 - `1` if temperature `T ≤ 0°C` within the next `3`, `6`, `12`, or `24` hours 
 - `0` otherwise (no frost event)
 
@@ -81,8 +81,8 @@ A binary frost risk indicator, defined as:
 We implemented a general model using `LightGBM Gradient Boosting` and a more innovative model using `Stacked Ensemble Knowledge Distillation`, which:
 
 - Combines tree-based models
-- High-capacity "teacher" models train a simpler "student" model
-- Student preserves performance while reducing inference cost
+- Implements high-capacity "teacher" models that train a simpler "student" model
+- Preserves performance while reducing inference cost
 
 **Baseline Heuristics**  
 In order to compare the effectiveness of our machine learning models, we implemented traditional frost-forecasting rules widely used in agriculture, including:
