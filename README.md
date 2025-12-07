@@ -78,7 +78,7 @@ A binary **frost risk indicator**, defined as:
 - `0` otherwise (no frost event)
 
 ## 🤖 ML Models:   
-We implemented a general model using `LightGBM Gradient Boosting` and a more innovative model using `Stacked Ensemble Knowledge Distillation`, which:
+We implemented a general model using `LightGBM (Light Gradient Boosting Machine)` and a more innovative model using `Weighted Ensemble Knowledge Distillation`, which:
 
 - Combines tree-based models
 - Implements high-capacity "teacher" models that train a simpler "student" model
@@ -114,13 +114,14 @@ or
 `jupyter lab`
 
 ### 4. Open and run `f3_data_challenge_main.ipynb`
-- Run all cells in order 
+- **Run all cells in order** 
 
 This notebook includes:
 - Data loading & preprocessing
 - Feature engineering
-- Model training
-- Evaluation (AUC, precision/recall, confusion matrices)
+- Base LightGBM Model training/evaluation
+- WEKD LightGBM Model training/evaluation
+- Model Statistics (AUC, precision/recall, confusion matrices)
 - Frot-risk forecast visualizations
 
 For comparison to traditional heuristics, open and run `baseline.ipynb` 
