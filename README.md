@@ -8,7 +8,8 @@ Our goal was to develop a machine learning model to accurately predict **frost r
 
 ## 📁 Repository Structure
 ```
-├── cimis-hourly-data-multiple-stations/	# Hourly station data     
+├── cimis-hourly-data-multiple-stations/	# Hourly station data
+├── models/ # Models for frost prediction and temperature forecasting across timeframes    
 ├── plots/  # Station plots and graphs
 ├── .gitignore  # Git ignore config
 ├── baseline.ipynb  # Traditional heuristic notebook
