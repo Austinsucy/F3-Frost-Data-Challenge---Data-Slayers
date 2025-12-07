@@ -13,6 +13,7 @@ Our goal was to develop a machine learning model to accurately predict **frost r
 ├── models/ # Models for frost prediction and temperature forecasting across timeframes    
 ├── plots/  # Station plots and graphs
 ├── .gitignore  # Git ignore config
+├── Data_Slayers_Report  # Final report pdf  
 ├── README.md  # This file
 ├── baseline.ipynb  # Traditional heuristic notebook
 ├── f3_data_challenge_main.ipynb  # Final pipeline notebook  
@@ -133,7 +134,7 @@ For comparison to traditional heuristics, open and run `baseline.ipynb`
 ## 📄 Project Report
 For a detailed write-up of our methodology, modeling strategy, visualizations, and discussion, see:    
 
-👉 `DataSlayers_report.pdf` 
+👉 `Data_Slayers_report.pdf` 
 
 ---
 
