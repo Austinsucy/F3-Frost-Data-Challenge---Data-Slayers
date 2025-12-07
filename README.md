@@ -8,6 +8,7 @@ Our goal was to develop a machine learning model to accurately predict **frost r
 
 ## 📁 Repository Structure
 ```
+├── baseline_plots/	# Baseline plots and graphs
 ├── cimis-hourly-data-multiple-stations/	# Hourly station data
 ├── models/ # Models for frost prediction and temperature forecasting across timeframes    
 ├── plots/  # Station plots and graphs
