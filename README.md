@@ -12,9 +12,9 @@ Our goal was to develop a machine learning model to accurately predict **frost r
 ├── models/ # Models for frost prediction and temperature forecasting across timeframes    
 ├── plots/  # Station plots and graphs
 ├── .gitignore  # Git ignore config
+├── README.md  # This file
 ├── baseline.ipynb  # Traditional heuristic notebook
-├── f3_data_challenge_main.ipynb  # Final pipeline notebook 
-├── README.md  # This file 
+├── f3_data_challenge_main.ipynb  # Final pipeline notebook  
 ├── requirements.txt  # Required Python packages
 ```
 ---
